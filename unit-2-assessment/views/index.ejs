@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unit 2 Assessment</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>To Do List</h1>
+    <h3>There are no To Dos yet</h3>
+    <hr>
+    <form method="post" action="/todosform">
+      <input name= "addtodos" placeholder=""></input>
+      <button type= "submit">add to do</button>
+    </form>
+    <p><%=listOfTodos%></p>
+  </body>
+</html>
